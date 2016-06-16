@@ -1,0 +1,142 @@
+/*responsive design for carousel*/
+/*screen size under 768px*/
+.carousel {
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+.carousel .item{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 15px;
+}
+.carousel-author{
+    font-size: 10px;
+}
+#footer_logo{
+    display: none;
+}
+/*screen size between 768 and 992 px*/
+@media (min-width: 768px){
+    .carousel .item{
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 17px;
+    }
+    .carousel-author{
+        font-size: 12px;
+    }
+    #footer_logo{
+        display: block;
+    }
+}
+/*screen size between 992 and 1200 px*/
+@media (min-width: 992px) {
+    .carousel .item{
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 20px;
+    }
+    .carousel-author{
+        font-size: 15px;
+    }
+    #footer_logo{
+        display: block;
+    }
+}
+/*screen size over 1200px*/
+@media (min-width: 1200px) {
+    .carousel .item{
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 20px;
+    }
+    .carousel-author{
+        font-size: 15px;
+    }
+    #footer_logo{
+        display: block;
+    }
+}
+
+.thumbnail {
+    padding: 30px;
+}
+
+.upper-element{
+    height: 150px;
+}
+
+.upper-element h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.float_div{
+    position:absolute;
+    width: 0px;
+    height: 0px;
+    border-radius: 5px;
+    border: 25px solid transparent;
+    border-left-color: transparent;
+    border-right-color: lightblue;
+    border-top-color: lightblue;
+    border-bottom-color: transparent;
+    right:15px;
+    top:0px;
+    z-index:100;
+}
+
+.btn-license{
+    margin-top:50px;
+    color: #fafafa;
+    background:lightgreen;
+}
+
+.search {
+    border-style: groove;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    padding:8px 15px;
+}
+.button {
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    position:relative;
+    padding:10px 20px;
+    left:-5px;
+    border:none;
+    background-color:lightgreen;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:grey;
+    color:white;
+}
+
+/* style icon */
+.mail .glyphicon {
+    right:-30px;
+}
+
+/* add padding  */
+.search{ padding-left:  40px; }
+
+header .navbar{
+    padding: 20px;
+    background: white;
+    border:none;
+}
+
+footer .navbar{
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*back to top button*/
+.demo{height:1400px; padding-top:100px}
+.demo p{text-align:center; height:32px; line-height:32px; font-size:16px}
+.demo p span{margin:20px}
+.demo p a.cur{color:#f60; font-weight:bold}
+a.backToTop{width:60px; height:60px; background:grey;}
+a.backToTop:hover{background-position:-113px 0}
